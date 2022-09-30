@@ -1,0 +1,121 @@
+.contact{
+    width: 100%;
+    min-height: 100vh;
+    background: var(--main-clr);
+}
+
+
+.contact-content{
+    width: 100%;
+    padding: 20vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+}
+
+
+.contact-header{
+    width: 40%;
+}
+.contact-title{
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+.contact-subtitle{
+    color: rgb(207, 207, 207);
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+
+.contact-info{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.contact-info div{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.contact-info div p{
+    font-size: 0.8rem;
+    text-align: center;
+}
+.contact-info-icon{
+    font-size: 1.5rem;
+    color: var(--secondary-clr);
+}
+
+
+.contact-form{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.contact-form p{
+    color: white;
+}
+.contact-form input, textarea{
+    background: transparent;
+    border: 1px solid var(--secondary-clr);
+    border-radius: var(--radius);
+}
+.contact-form input{
+    height: 3em;
+}
+
+
+.contact-faqs{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+}
+.contact-faqs p{
+    color: white;
+}
+
+.contact-faq{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: var(--secondary-clr);
+    border-radius: var(--radius);
+    padding: 0.5em 1em;
+}
+.faq-title{
+    color: var(--secondary-clr);
+    margin-bottom: 1em;
+}
+.contact-faq-top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-faq-top button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.faq-question{
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+.contact-faq-answer{
+    display: none;
+}
+.faq-answer{
+    font-size: 0.9rem;
+    line-height: 1.5em;
+}

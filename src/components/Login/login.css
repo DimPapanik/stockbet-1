@@ -1,0 +1,194 @@
+.login{
+    background: var(--main-clr);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.login-logo{
+    width: 150px;
+    height: 60px;
+}
+.login-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#login-form{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+.login-input{
+    width: 100%;
+    height: 2em;
+    margin-bottom: 1em;
+    border: 1px solid var(--secondary-clr);
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2em 0.4em;
+}
+
+#login-form label{
+    color: white;
+    font-size: 0.8rem;
+}
+
+#login-email, #login-pass{
+    outline: none;
+    background: transparent;
+    border: none;
+    color: white;
+}
+#login-form button{
+    background: var(--secondary-clr);
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 0.5em 1em;
+    color: var(--main-clr);
+}
+
+.login-form-register{
+    display: flex;
+    align-items: center;
+}
+.login-form-register p{
+    color: white;
+    font-size: 0.8rem;
+}
+
+.login-form-register{
+    display: flex;
+    gap: 0.5em;
+}
+.login-register-btn{
+    font-size: 0.9rem;
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    color: var(--secondary-clr);
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.login-register-btn:hover{
+    color: blue;
+}
+
+
+.login-forgot-pass button{
+    background: transparent;
+    border: none;
+    color: rgb(109, 109, 109);
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.login-forgot-pass button:hover{
+    color: white;
+}
+
+
+/* REGISTER PAGE */
+.register{
+    width: 100%;
+    height: 100vh;
+    background: var(--main-clr);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.register-text-wrapper{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+.register-title{
+    width: 100%;
+    font-weight: normal;
+    font-size: 1.3rem;
+    color: white;
+    line-height: 0.9em;
+    margin: 0;
+}
+.register-text-wrapper p{
+    color: rgb(148, 148, 148);
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.register-form-wrapper{
+    width: 35%;
+}
+#register-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+}
+#register-form input{
+    background: transparent;
+    border: none;
+    width: 80%;
+    outline: none;
+    color: white;
+}
+#register-form button{
+    background: var(--secondary-clr);
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 1em;
+    color: var(--main-clr);
+}
+#register-form label{
+    color: white;
+    font-size: 0.7rem;
+}
+
+.register-form-name{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.register-form-name div{
+    width: 50%;
+    height: 2em;
+    margin-bottom: 1em;
+    border: 1px solid var(--secondary-clr);
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2em 0.4em;
+}
+
+.register-input{
+    width: 100%;
+    height: 2em;
+    margin-bottom: 1em;
+    border: 1px solid var(--secondary-clr);
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2em 0.4em;
+}

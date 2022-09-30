@@ -1,0 +1,213 @@
+/* Tips page */
+.tips-page{
+    background: var(--main-clr);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    padding: 20vh 0;
+}
+
+
+.tips-page-text{
+    width: 45%;
+}
+.tips-page-text h1{
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.tips-page-text p{
+    color: rgb(225, 225, 225);
+    font-size: 0.8rem;
+    line-height: 1.5em;
+}
+
+
+.tip-options{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+}
+.tip-options-btn{
+    background: white;
+    color: var(--font-clr);
+    border: none;
+    border-radius: var(--radius) var(--radius) 0 0;
+    height: 2.5em;
+    padding: 0 1em;
+    cursor: pointer;
+}
+.tip-options-btn-active{
+    background: var(--secondary-clr);
+    color: var(--font-clr);
+    border: none;
+    border-radius: var(--radius) var(--radius) 0 0;
+    height: 2.5em;
+    padding: 0 1em;
+    cursor: pointer;
+}
+
+
+.tips-page-tips{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tips-page-tips p{
+    width: 45%;
+    color: white;
+    font-size: 0.9rem;
+    color: antiquewhite;
+    line-height: 1.5em;
+}
+
+
+.tips-page-betting{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.tips-page-betting p{
+    color: white;
+    font-size: 0.8rem;
+    color: var(--secondary-clr);
+}
+.tips-page-betting div{
+    width: 3em;
+    height: 1.5em;
+}
+.tips-page-betting div img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+/* Tips header component */
+.tips-header-wrapper{
+    width: 45%;
+    background: var(--secondary-clr);
+    border: 1px solid var(--secondary-clr);
+    border-radius: 0 var(--radius) var(--radius) var(--radius);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+}
+.tips-header-title{
+    width: 100%;
+    border-radius: var(--radius) var(--radius) 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+.tips-header-title h5{
+    color: var(--secondary-clr);
+    font-size: 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.tips-header-table{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+.tip-titles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+}
+.tip-titles p{
+    color: var(--font-clr);
+    font-weight:normal;
+    width: 25%;
+    text-align: center;
+}
+
+
+/* Single tip component */
+.tip-wrapper{
+    width: 95%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+}
+.tip-game{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2em 1em;
+    border-radius: var(--radius);
+    background: var(--main-clr);
+}
+.tip-game p{
+    width: 25%;
+    text-align: center;
+    color: white;    
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.tip-game small{
+    color: white;    
+    font-size: 0.8rem;
+}
+.tip-buttons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    padding: 0.2em 1em;
+    font-size: 0.8rem;
+}
+.tip-buttons p{
+    margin: 0;
+}
+
+
+
+/* TIps home component */
+.tips-wrapper{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 3em 0;
+}
+.tips-wrapper h1{
+    color:  white;
+}
+
+
+.tips-not-logged{
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 0.5em;
+}
+.tips-links{
+    text-decoration: none;
+    color: var(--secondary-clr);
+    margin: 0 0.1em;
+}
+
