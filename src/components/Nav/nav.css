@@ -10,18 +10,18 @@
     justify-content: flex-end;
     align-items: center;
     gap: 1em;
-    padding: 0 2em;
+    padding-right: 8%;
 }
 
 
 .logo{
     position: absolute;
-    left: 2em;
-    width: 100px;
-    height: 40px;
+    left: 7%;
+    width: 130px;
+    height: 135px;
 }
 .logo img{
-    width: 100%;
+    width: 150%;
     height: 100%;
     object-fit: contain;
 }
@@ -126,6 +126,7 @@
 .login-btn:hover::before{
     transform: translateY(-20px);
     opacity: 0;
+    border-color: gold;   
 }
 .login-btn:hover::after{
     transform: translateY(-18px);
@@ -140,12 +141,15 @@
     padding: 0.5em 1em;
     border: 1px solid var(--main-clr);
     border-radius: var(--radius);
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     cursor: pointer;
     transition: all 0.3s;
+    margin-left: 10px;
+
 }
 .register-btn:hover{
     transform: scale(1.1);
+    background-color: white;
 }
 
 

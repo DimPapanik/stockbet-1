@@ -20,8 +20,8 @@ const Contact = ({currentUser, setCurrentUser}) =>
 
             <div className="contact-content">
                 <div className="contact-header">
-                    <h1 className='contact-title'>Επικοινώνισε μαζί μας</h1>
-                    <p className='contact-subtitle'>Αν αντιμετοπίζεις πρόβλημα με την υπηρεσία μας η κάτι άλλο διάλεξε έναν από τους παρακάτω τρόπους.</p>
+                    <h1 className='contact-title'>Επικοινώνησε μαζί μας</h1>
+                    <p className='contact-subtitle'>Αν αντιμετωπίζεις πρόβλημα με την υπηρεσία μας ή κάτι άλλο διάλεξε έναν από τους παρακάτω τρόπους.</p>
                 </div>
 
                 <div className="contact-info">
